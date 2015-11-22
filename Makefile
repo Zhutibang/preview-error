@@ -1,9 +1,9 @@
-server:
-	python -m SimpleHTTPServer
-
-save:
+main:
 	git add -A
 	git commit -m ":cd: Update at $(shell date)"
 	git push origin gh-pages
 
-.PHONY: server save
+server:
+	python -m SimpleHTTPServer
+
+.PHONY: main server 
