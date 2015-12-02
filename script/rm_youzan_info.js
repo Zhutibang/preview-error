@@ -8,4 +8,8 @@
      * 底部
      */
     document.getElementsByClassName('footer')[0].innerHTML = '';
+    /**
+     * 把container变为白色
+     */
+    document.getElementsByClassName('container')[0].style.backgroundColor = '#FFFFFF';
 })();
